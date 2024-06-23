@@ -23,7 +23,7 @@ This project contains a Discord bot developed using discord.js and node-schedule
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/my-discord-bot.git
+   git clone git@github.com:Xxzer042xX/discord_bot.git
    cd my-discord-bot
    ```
 
