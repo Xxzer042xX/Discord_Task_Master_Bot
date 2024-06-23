@@ -2,7 +2,7 @@
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-<h1 align="center">This project contains a server bot manager</h1>
+<h1 align="center">This project contains a Discord server assistant bot.</h1>
 <hr>
 <br><br>
 
