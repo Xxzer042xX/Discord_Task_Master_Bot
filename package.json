@@ -1,0 +1,22 @@
+{
+  "name": "xavier",
+  "version": "1.0.0",
+  "description": "Bot Discord utilisant discord.js et node-schedule",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Votre Nom",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1"
+  }
+}
