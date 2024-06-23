@@ -2,7 +2,7 @@
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-<h1 align="center">The Discord Server Assistant Bot is a versatile tool designed to enhance the functionality of a server. Seamlessly integrated, it simplifies moderation, facilitates communication, offers entertainment, and optimizes server management.</h1>
+<h1 align="center">The Discord Server Assistant Bot is a versatile tool designed to enhance the functionality of a server. Seamlessly integrated, it simplifies moderation, facilitates communication, offers entertainment, and optimizes management.</h1>
 <hr>
 <br><br>
 
