@@ -4,9 +4,6 @@ node_modules/
 # Environment variables
 .env
 
-# Private text file
-private.txt
-
 # macOS .DS_Store files
 .DS_Store
 
@@ -20,4 +17,4 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
-
+*.txt
