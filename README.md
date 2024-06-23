@@ -2,9 +2,10 @@
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-This project contains a Discord bot developed using discord.js and node-schedule for various functionalities.
+<h1 align="center">This project contains a Discord bot manager<hr>
 
 ## Features
+
 
 - **Command Handling:** Reacts to specific commands like `!pool` to assign roles.
 - **Daily Greetings:** Welcomes new members and sends daily messages to specific channels.
