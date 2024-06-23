@@ -2,16 +2,23 @@
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-<h1 align="center">This project contains a Discord bot manager<hr>
+<h1 align="center">This project contains a Discord bot manager</h1>
+<hr>
+<br><br>
 
 ## Features
 
+<br>
 
 - **Command Handling:** Reacts to specific commands like `!pool` to assign roles.
 - **Daily Greetings:** Welcomes new members and sends daily messages to specific channels.
 - **Task Scheduling:** Uses node-schedule to schedule actions at specific times.
+  
+<br>
 
 ## Main Files
+
+<br>
 
 - **`index.js` :** Entry point of the Discord bot. It initializes the Discord client, configures events, and handles scheduled tasks.
 - **`commands.js` :** Contains functions to manage commands like `!pool` and daily greetings.
@@ -19,7 +26,11 @@
 - **`.env` :** Configuration file for environment variables, including the Discord token.
 - **`package.json` :** npm configuration file defining dependencies and scripts to start and test the bot.
 
+<br>
+  
 ## Installation
+
+<br>
 
 1. **Clone the Repository:**
    ```bash
@@ -38,8 +49,11 @@
      ```
      DISCORD_TOKEN=YourDiscordToken
      ```
+<br>
 
 ## Usage
+
+<br>
 
 To start the Discord bot, use the following command:
 ```bash
@@ -48,7 +62,11 @@ npm start
 
 Ensure your bot is invited to your Discord server and has appropriate permissions to function correctly.
 
+<br>
+
 ## Contributing
+
+<br>
 
 Contributions are welcome! If you want to improve or add features, please:
 
@@ -58,7 +76,11 @@ Contributions are welcome! If you want to improve or add features, please:
 4. Push to the branch (`git push origin feature-improvements`).
 5. Create a new Pull Request.
 
+<br>
+
 ## License
+
+<br>
 
 This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
