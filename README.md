@@ -21,7 +21,7 @@
 <br>
 
 - **`index.js` :** Entry point of the Discord bot. It initializes the Discord client, configures events, and handles scheduled tasks.
-- **`commands.js` :** Contains functions to manage commands like `!pool` and daily greetings.
+- **`commands.js` :** Contains functions to manage commands like and daily greetings.
 - **`scheduledTasks.js` :** Manages scheduled tasks such as resetting daily greetings and counting down to a specific date.
 - **`.env` :** Configuration file for environment variables, including the Discord token.
 - **`package.json` :** npm configuration file defining dependencies and scripts to start and test the bot.
