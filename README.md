@@ -1,5 +1,7 @@
 # Mon Bot Discord
-
+<p align="center">
+  <img src="images/f" alt="xavier_bot">
+</p>
 Ce projet contient un bot Discord développé en utilisant discord.js et node-schedule pour diverses fonctionnalités.
 
 ## Fonctionnalités
