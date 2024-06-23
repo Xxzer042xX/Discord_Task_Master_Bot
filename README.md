@@ -1,6 +1,6 @@
 # Mon Discord Bot
 <p align="center">
-  <img src="images/discord.png" alt="discord_bot">
+  <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
 This project contains a Discord bot developed using discord.js and node-schedule for various functionalities.
