@@ -1,66 +1,67 @@
-# Mon Bot Discord
+# Mon Discord Bot
 <p align="center">
-  <img src="images/f" alt="xavier_bot">
+  <img src="image/Xavier_Niel.jpg" alt="xavier_bot">
 </p>
-Ce projet contient un bot Discord développé en utilisant discord.js et node-schedule pour diverses fonctionnalités.
 
-## Fonctionnalités
+This project contains a Discord bot developed using discord.js and node-schedule for various functionalities.
 
-- **Gestion des Commandes :** Réagit aux commandes spécifiques comme `!piscine` pour attribuer des rôles.
-- **Salutations Quotidiennes :** Accueille les nouveaux membres et envoie des messages quotidiens dans des canaux spécifiques.
-- **Planification des Tâches :** Utilise node-schedule pour planifier des actions à des heures spécifiques.
+## Features
 
-## Fichiers Principaux
+- **Command Handling:** Reacts to specific commands like `!pool` to assign roles.
+- **Daily Greetings:** Welcomes new members and sends daily messages to specific channels.
+- **Task Scheduling:** Uses node-schedule to schedule actions at specific times.
 
-- **`index.js` :** Point d'entrée du bot Discord. Il initialise le client Discord, configure les événements et les tâches planifiées.
-- **`commands.js` :** Contient les fonctions pour gérer les commandes comme `!piscine` et les salutations quotidiennes.
-- **`scheduledTasks.js` :** Gère les tâches planifiées telles que la réinitialisation des salutations quotidiennes et le décompte jusqu'à une date spécifique.
-- **`.env` :** Fichier de configuration pour les variables d'environnement, y compris le token Discord.
-- **`package.json` :** Fichier de configuration npm définissant les dépendances et les scripts pour démarrer et tester le bot.
+## Main Files
+
+- **`index.js` :** Entry point of the Discord bot. It initializes the Discord client, configures events, and handles scheduled tasks.
+- **`commands.js` :** Contains functions to manage commands like `!piscine` and daily greetings.
+- **`scheduledTasks.js` :** Manages scheduled tasks such as resetting daily greetings and counting down to a specific date.
+- **`.env` :** Configuration file for environment variables, including the Discord token.
+- **`package.json` :** npm configuration file defining dependencies and scripts to start and test the bot.
 
 ## Installation
 
-1. **Clonez le Repository :**
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/votre-utilisateur/mon-bot-discord.git
-   cd mon-bot-discord
+   git clone https://github.com/your-username/my-discord-bot.git
+   cd my-discord-bot
    ```
 
-2. **Installez les Dépendances :**
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
 
-3. **Configurez les Variables d'Environnement :**
-   - Créez un fichier `.env` à la racine du projet.
-   - Ajoutez votre token Discord dans le fichier `.env` :
+3. **Set Environment Variables:**
+   - Create a `.env` file at the root of the project.
+   - Add your Discord token to the `.env` file:
      ```
-     DISCORD_TOKEN=VotreTokenDiscord
+     DISCORD_TOKEN=YourDiscordToken
      ```
 
-## Utilisation
+## Usage
 
-Pour démarrer le bot Discord, utilisez la commande suivante :
+To start the Discord bot, use the following command:
 ```bash
 npm start
 ```
 
-Assurez-vous que votre bot est invité sur votre serveur Discord et qu'il dispose des permissions appropriées pour fonctionner correctement.
+Ensure your bot is invited to your Discord server and has appropriate permissions to function correctly.
 
-## Contribuer
+## Contributing
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ou ajouter des fonctionnalités, veuillez :
+Contributions are welcome! If you want to improve or add features, please:
 
-1. Forkez le repository.
-2. Créez une branche pour vos modifications (`git checkout -b ameliorations-fonctionnalites`).
-3. Committez vos changements (`git commit -am 'Ajout de nouvelles fonctionnalités'`).
-4. Pushez vers la branche (`git push origin ameliorations-fonctionnalites`).
-5. Créez une nouvelle Pull Request.
+1. Fork the repository.
+2. Create a branch for your changes (`git checkout -b feature-improvements`).
+3. Commit your changes (`git commit -am 'Added new features'`).
+4. Push to the branch (`git push origin feature-improvements`).
+5. Create a new Pull Request.
 
-## Licence
+## License
 
-Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
 ---
 
-© 2024 Votre Nom
+© 2024 Your Name
