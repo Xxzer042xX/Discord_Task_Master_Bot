@@ -86,4 +86,4 @@ This project is licensed under the [ISC License](https://opensource.org/licenses
 
 ---
 
-© 2024 Your Name
+© 2024 Xx_Zer0_xX
