@@ -5,12 +5,12 @@ const greetedMembersToday = new Set();
 async function handlePiscineCommand(message) {
     try {
         // Ajoute un rôle spécifique à l'utilisateur
-        await message.member.roles.add('1207072732978618399');
+        await message.member.roles.add('votre id de role');
         // Répond à l'utilisateur avec un message de confirmation
-        await message.reply('Bravo ! Tu peux dorénavant barboter librement sur la totalité du serveur !');
+        await message.reply('votre message');
     } catch (error) {
         // Logge une erreur en cas de problème
-        console.error("Erreur lors de l'exécution de la commande !piscine:", error);
+        console.error("Erreur lors de l'exécution de la commande!", error);
     }
 }
 
@@ -21,7 +21,7 @@ async function handleDailyGreetings(message) {
         // Ajoute l'utilisateur à l'ensemble des membres salués
         greetedMembersToday.add(message.author.id);
         // Envoie un message de salutation dans un canal spécifique
-        await sendMessage(message.client, '1207071388305854578', `Bonjour ${message.author}! C'est super de te revoir parmi nous.\nQue vas-tu apprendre aujourd'hui ?\nDu Shell ? Du C ? Ou voyager avec un peu de computer-science ?`);
+        await sendMessage(message.client, 'votre ide de canal', `Votre message${message.author}! votre message`);
     }
 }
 
