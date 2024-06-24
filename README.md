@@ -9,6 +9,7 @@
 <p align="center">
   <strong>▶ Votre assistant polyvalent pour la gestion administrative sur Discord.◀</strong>
 </p>
+<br>
 <p align="center">
   <strong>▶ Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.◀</strong>
 </p>
@@ -16,7 +17,7 @@
 <br>
 
 ## 🛠️ Fonctionnalités Clés
-<hr>
+---
 
 ⚫ **Exécution des Tâches Complexes :** Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
   
@@ -29,7 +30,7 @@
 <br>
 
 ## 📋 Prérequis
-<hr>
+---
 
 Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disposer des éléments suivants :
 
@@ -40,7 +41,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 <br>
 
 ## ⚙️ Installation
-<hr>
+---
 
 ### Clonage du Répertoire
 
@@ -84,18 +85,18 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 <br>
 
 ## 🔧 Personnalisation
-<hr>
+---
 
 1. **Ajoute un rôle spécifique à l'utilisateur :**
   
-   &nbsp;- Ouvrez le fichier `commands.js`
+   &nbsp;➡ Ouvrez le fichier `commands.js`
    
    - Personnalisez `'ID_DU_ROLE'` dans `'handlePiscineCommand'`
    - Personnalisez votre message de confirmation dans `handlePiscineCommand`
    - Personnalisez votre message d'erreur dans `handlePiscineCommand`
    <br><br>
    
-   &nbsp;- Ouvrez le fichier `lol.js`
+   &nbsp;➡ Ouvrez le fichier `lol.js`
 
    -  rgjrjgjrpg
    -  rgjrg
@@ -103,7 +104,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
    
 2. **Gérer les salutations quotidiennes :**
    
-   &nbsp;- Ouvrez le fichier `commands.js`
+   &nbsp;➡ Ouvrez le fichier `commands.js`
 
    - Personnalisez `'ID_DU_CANAL'` dans `'handleDailyGreetings'`
    - Personnalisez votre message dans `'handleDailyGreetings'`
@@ -119,7 +120,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 <br>
 
 ## 🚀 Utilisation
-<hr>
+---
 
 ### Démarrage du Bot
 
@@ -134,7 +135,7 @@ Assurez-vous que votre bot est invité sur votre serveur Discord et dispose des 
 <br>
 
 ## 🤝 Contribution
-<hr>
+---
 
 Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications, et soumettant une Pull Request.
 
@@ -147,8 +148,6 @@ Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le 
 <br>
 
 ## 📜 Licence
-<hr>
+---
 
 Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
-
-Ces modifications devraient rendre votre document plus attrayant et plus facile à lire.
