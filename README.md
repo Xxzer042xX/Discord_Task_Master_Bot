@@ -109,7 +109,10 @@ Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le 
 4. Pousser la branche (`git push origin feature-ameliorations`).
 5. Créer une nouvelle Pull Request.
 
+<br>
+
 ## Licence
+<hr>
 
 Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
 
