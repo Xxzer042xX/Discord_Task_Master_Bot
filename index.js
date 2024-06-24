@@ -23,8 +23,8 @@ client.once('ready', () => {
 
 // Événement déclenché lorsqu'un nouveau membre rejoint la guilde
 client.on('guildMemberAdd', async (member) => {
-    const welcomeMessage = `Bienvenue ${member}! Assurez-vous de lire les [règles](<#1207071388305854577>). et d'accepter avec "!ok" ici`;
-    await sendMessage(client, '1207071388305854578', welcomeMessage);
+    const welcomeMessage = `Bienvenue ${member}! Assurez-vous de lire les règles et d'accepter avec "!ok" ici.`;
+    await sendMessage(client, 'ID_DU_CANAL_DE_BIENVENUE', welcomeMessage); // Remplacez 'ID_DU_CANAL_DE_BIENVENUE' par l'ID du canal de bienvenue
 });
 
 // Événement déclenché lorsqu'un message est créé
@@ -32,8 +32,8 @@ client.on('messageCreate', async (message) => {
     // Ignore les messages provenant des bots
     if (message.author.bot) return;
 
-    // Vérifie si le message est la commande !piscine
-    if (message.content === '!piscine') {
+    // Vérifie si le message est la commande !votre commande
+    if (message.content === 'votre_commande') { //Remplacez  'votre_comande par votre commande'
         await handlePiscineCommand(message);
     } else {
         // Gère les salutations quotidiennes
