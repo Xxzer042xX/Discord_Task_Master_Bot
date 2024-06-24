@@ -98,6 +98,8 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 
 <details>
   <summary>1. <strong>Ajoute un rôle spécifique à l'utilisateur :</strong></summary>
+
+  <br>
   
   &nbsp;➡ Ouvrez le fichier `commands.js`
   
@@ -115,6 +117,9 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
    
 <details>
   <summary>2. <strong>Gérer les salutations quotidiennes :</strong></summary>
+
+  <br>
+  
   &nbsp;➡ Ouvrez le fichier commands.js
   
   - Personnalisez 'ID_DU_CANAL' dans 'handleDailyGreetings'
