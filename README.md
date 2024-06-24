@@ -1,5 +1,6 @@
-<h1 align="center">🎉 DiscordTaskMasterBot 🎉</h1>
-<hr>
+<h1 align="center">🎉 DiscordTaskMasterBot 🎉
+
+<h1 align="center">Votre assistant polyvalent pour la gestion administrative sur Discord.
 <br>
 
 <p align="center">
