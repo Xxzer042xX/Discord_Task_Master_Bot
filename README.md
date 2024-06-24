@@ -14,18 +14,27 @@
   <strong>▶ Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.◀</strong>
 </p>
 
-<br>
+<br><br>
 
 ## 🛠️ Fonctionnalités Clés
+
 ---
 
-⚫ **Exécution des Tâches Complexes :** Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
-  
-⚫ **Modération Efficace :** Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
-  
-⚫ **Communication Facilitée :** Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
-  
-⚫ **Optimisation Globale :** Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
+⚫ **Exécution des Tâches Complexes :** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
+
+⚫ **Modération Efficace :** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
+
+⚫ **Communication Facilitée :**  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
+
+⚫ **Optimisation Globale :**  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
 
 <br>
 
@@ -87,28 +96,31 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 ## 🔧 Personnalisation
 ---
 
-1. **Ajoute un rôle spécifique à l'utilisateur :**
+<details>
+  <summary>1. <strong>Ajoute un rôle spécifique à l'utilisateur :</strong></summary>
   
-   &nbsp;➡ Ouvrez le fichier `commands.js`
+  &nbsp;➡ Ouvrez le fichier `commands.js`
+  
+  - Personnalisez `'ID_DU_ROLE'` dans `'handlePiscineCommand'`
+  - Personnalisez votre message de confirmation dans `handlePiscineCommand`
+  - Personnalisez votre message d'erreur dans `handlePiscineCommand`
+  <br><br>
+  
+  &nbsp;➡ Ouvrez le fichier `lol.js`
+  
+  - rgjrjgjrpg
+  - rgjrg
+  - rkkgh
+</details>
    
-   - Personnalisez `'ID_DU_ROLE'` dans `'handlePiscineCommand'`
-   - Personnalisez votre message de confirmation dans `handlePiscineCommand`
-   - Personnalisez votre message d'erreur dans `handlePiscineCommand`
-   <br><br>
-   
-   &nbsp;➡ Ouvrez le fichier `lol.js`
-
-   -  rgjrjgjrpg
-   -  rgjrg
-   -  rkkgh
-   
-2. **Gérer les salutations quotidiennes :**
-   
-   &nbsp;➡ Ouvrez le fichier `commands.js`
-
-   - Personnalisez `'ID_DU_CANAL'` dans `'handleDailyGreetings'`
-   - Personnalisez votre message dans `'handleDailyGreetings'`
-   - Remplacez `'ID_DU_CANAL_DE_BIENVENUE'` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+<details>
+  <summary>2. <strong>Gérer les salutations quotidiennes :</strong></summary>
+  &nbsp;➡ Ouvrez le fichier commands.js
+  
+  - Personnalisez 'ID_DU_CANAL' dans 'handleDailyGreetings'
+  - Personnalisez votre message dans 'handleDailyGreetings'
+  - Remplacez 'ID_DU_CANAL_DE_BIENVENUE' dans handleDailyGreetings par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+</details>
 
 3. **Messages :**
    - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
