@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
@@ -23,29 +22,35 @@
 
 ## Installation et Utilisation
 
-<br>
+### Pour démarrer DiscordTaskMasterBot sur votre serveur Discord :
 
-Pour démarrer DiscordTaskMasterBot sur votre serveur Discord :
+#### Clonage du Répertoire :
 
-1. **Clonage du Répertoire :**
+1. Clonez le dépôt depuis GitHub en utilisant la commande suivante :
    ```bash
    git clone git@github.com:Xxzer042xX/discord_bot.git
+   ```
+
+2. Une fois le clonage terminé, accédez au répertoire `discord_bot` avec la commande :
+   ```bash
    cd discord_bot
    ```
 
-2. **Installation des Dépendances :**
-   ```bash
-   npm install
+#### Installation des Dépendances :
+
+```bash
+npm install
+```
+
+#### Configuration des Variables d'Environnement :
+
+1. Créez un fichier `.env` à la racine du projet.
+2. Ajoutez votre jeton Discord dans le fichier `.env` :
+   ```
+   DISCORD_TOKEN=VotreTokenDiscord
    ```
 
-3. **Configuration des Variables d'Environnement :**
-   - Créez un fichier `.env` à la racine du projet.
-   - Ajoutez votre jeton Discord dans le fichier `.env` :
-     ```
-     DISCORD_TOKEN=VotreTokenDiscord
-     ```
-
-Pour lancer DiscordTaskMasterBot :
+### Pour lancer DiscordTaskMasterBot :
 
 ```bash
 npm start
