@@ -27,11 +27,11 @@ function countdownToAugust19(client) {
 
     // Construction et envoi du message
     const messageText = `Il reste ${diffDays} jours avant le 19 août ${targetDate.getFullYear()}.`;
-    const eventLink = "https://discord.com/events/1207071388305854575/1207727471584350319";
-    const message = `@everyone ${messageText} \n[Don't panic !](${eventLink})`;
+    const eventLink = "https://discord.com/events/ID_DE_L_EVENEMENT";
+    const message = `@everyone ${messageText} \n[Event Link](${eventLink})`; // Remplacez 'ID_DE_L_EVENEMENT' par l'ID réel de votre événement Discord
 
     // ID du canal cible
-    const channelId = '1207071388305854580';
+    const channelId = 'ID_DU_CANAL'; // Remplacez 'ID_DU_CANAL' par l'ID réel du canal cible
     sendMessage(client, channelId, message);
 }
 
