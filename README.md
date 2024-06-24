@@ -59,7 +59,13 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 ### Configuration des Variables d'Environnement
 
 4. Créez un fichier `.env` à la racine du projet.
-5. Ajoutez votre token Discord dans le fichier `.env` :
+
+   ```
+   touch .env
+   ```
+   <br>
+   
+6. Ajoutez votre token Discord dans le fichier `.env` :
    
    ```
    DISCORD_TOKEN=VotreTokenDiscord
