@@ -36,10 +36,11 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 ### Clonage du Répertoire
 
 1. Clonez le dépôt depuis GitHub :
+
    ```bash
    git clone git@github.com:Xxzer042xX/discord_bot.git
    ```
-2. deplacer vous a la racine du projet :
+3. deplacer vous a la racine du projet :
    ```bash
    cd discord_bot
    ```
@@ -48,6 +49,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 ### Installation des Dépendances
 
 3. Installez les dépendances nécessaires :
+   
    ```bash
    npm install
    ```
@@ -58,6 +60,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 
 4. Créez un fichier `.env` à la racine du projet.
 5. Ajoutez votre token Discord dans le fichier `.env` :
+   
    ```
    DISCORD_TOKEN=VotreTokenDiscord
    ```
@@ -67,12 +70,31 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 ## Personnalisation
 <hr>
 
-### Configuration des IDs et Messages
+1. **Ajoute un rôle spécifique à l'utilisateur :**
+  
+   &nbsp;- Ouvrez le fichier `commands.js`
+   
+   - Personaliser `'ID_DU_ROLE'` dans `'handlePiscineCommand'`
+   - Personaliser votre message de confirmation dans `handlePiscineCommand`
+   - Personaliser votre message d erreur dans `handlePiscineCommand`
+   <br><br>
+   
+   &nbsp;- Ouvrez le fichier `lol.js`
 
-1. **Roles et Canaux :** 
-   - Ouvrez le fichier `commands.js` et remplacez `'ID_DU_ROLE'` par l'ID du rôle que vous souhaitez attribuer avec la commande que vous choisissez.
+   -  rgjrjgjrpg
+   -  rgjrg
+   -  rkkgh
+   
+4. **gérer les salutations quotidiennes**
+   - Ouvrez le fichier `commands.js`
+
+   <br>
+   
+   - Personaliser `'ID_DU_CANAL'` dans `'handleDailyGreetings'`
+   - Personaliser votre message dans `'handleDailyGreetings'`
+   
    - Remplacez `'ID_DU_CANAL_DE_BIENVENUE'` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
-   - Assurez-vous de remplacer `'ID_DU_CANAL'` dans `countdownToAugust19` par l'ID du canal où vous souhaitez envoyer les messages de décompte.
+
 
 2. **Messages :**
    - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
