@@ -122,12 +122,17 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
   - Remplacez 'ID_DU_CANAL_DE_BIENVENUE' dans handleDailyGreetings par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
 </details>
 
-3. **Messages :**
-   - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
+<details>
+  <summary>3. <strong>Messages :</strong></summary>
+Personnalisez les messages dans les fonctions handleCustomCommand, handleDailyGreetings, et countdownToAugust19 selon vos préférences.
+</details>
 
-4. **Nom de la Commande :**
-   - Pour personnaliser le nom de la commande, ouvrez le fichier `index.js` et trouvez la fonction `handleCustomCommand`.
-   - Modifiez `'!piscine'` par le nom de commande de votre choix, par exemple `'!moncommande'`.
+
+<details>
+  <summary>4. <strong>Nom de la Commande :</strong></summary>
+Pour personnaliser le nom de la commande, ouvrez le fichier index.js et trouvez la fonction handleCustomCommand.
+Modifiez '!piscine' par le nom de commande de votre choix, par exemple '!moncommande'.
+</details>
 
 <br>
 
