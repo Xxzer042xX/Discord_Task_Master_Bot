@@ -1,89 +1,81 @@
+
 <p align="center">
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-<h1 align="center">The Discord Server Assistant Bot is a versatile tool designed to enhance the functionality of a server. Seamlessly integrated, it simplifies moderation, facilitates communication, offers entertainment, and optimizes management.</h1>
+<h1 align="center">DiscordTaskMasterBot est votre assistant polyvalent pour la gestion administrative sur Discord. Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.</h1>
 <hr>
 <br><br>
 
-## Features
+## Fonctionnalités Clés
 
 <br>
 
-- **Command Handling:** Reacts to specific commands like `!pool` to assign roles.
-- **Daily Greetings:** Welcomes new members and sends daily messages to specific channels.
-- **Task Scheduling:** Uses node-schedule to schedule actions at specific times.
+- **Exécution des Tâches Complexes :** Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
   
-<br>
-
-## Main Files
-
-<br>
-
-- **`index.js` :** Entry point of the Discord bot. It initializes the Discord client, configures events, and handles scheduled tasks.
-- **`commands.js` :** Contains functions to manage commands like and daily greetings.
-- **`scheduledTasks.js` :** Manages scheduled tasks such as resetting daily greetings and counting down to a specific date.
-- **`.env` :** Configuration file for environment variables, including the Discord token.
-- **`package.json` :** npm configuration file defining dependencies and scripts to start and test the bot.
-
-<br>
+- **Modération Efficace :** Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
   
-## Installation
+- **Communication Facilitée :** Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
+  
+- **Optimisation Globale :** Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
 
 <br>
 
-1. **Clone the Repository:**
+## Installation et Utilisation
+
+<br>
+
+Pour démarrer DiscordTaskMasterBot sur votre serveur Discord :
+
+1. **Clonage du Répertoire :**
    ```bash
    git clone git@github.com:Xxzer042xX/discord_bot.git
    cd discord_bot
    ```
 
-2. **Install Dependencies:**
+2. **Installation des Dépendances :**
    ```bash
    npm install
    ```
 
-3. **Set Environment Variables:**
-   - Create a `.env` file at the root of the project.
-   - Add your Discord token to the `.env` file:
+3. **Configuration des Variables d'Environnement :**
+   - Créez un fichier `.env` à la racine du projet.
+   - Ajoutez votre jeton Discord dans le fichier `.env` :
      ```
-     DISCORD_TOKEN=YourDiscordToken
+     DISCORD_TOKEN=VotreTokenDiscord
      ```
-<br>
 
-## Usage
+Pour lancer DiscordTaskMasterBot :
 
-<br>
-
-To start the Discord bot, use the following command:
 ```bash
 npm start
 ```
 
-Ensure your bot is invited to your Discord server and has appropriate permissions to function correctly.
+Assurez-vous que votre bot est invité sur votre serveur Discord et dispose des autorisations nécessaires pour fonctionner correctement.
 
 <br>
 
-## Contributing
+## Contribution
 
 <br>
 
-Contributions are welcome! If you want to improve or add features, please:
+Vous pouvez contribuer au développement de DiscordTaskMasterBot en :
 
-1. Fork the repository.
-2. Create a branch for your changes (`git checkout -b feature-improvements`).
-3. Commit your changes (`git commit -am 'Added new features'`).
-4. Push to the branch (`git push origin feature-improvements`).
-5. Create a new Pull Request.
-
-<br>
-
-## License
+1. Forkant le dépôt.
+2. Créant une branche pour vos modifications (`git checkout -b feature-ameliorations`).
+3. Commitant vos changements (`git commit -am 'Ajout de nouvelles fonctionnalités'`).
+4. Pousant la branche (`git push origin feature-ameliorations`).
+5. Créant une nouvelle Pull Request.
 
 <br>
 
-This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
+## Licence
+
+<br>
+
+Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
 
 ---
 
 © 2024 Xx_Zer0_xX
+j ai un readme pour mon bot discord, peut tu ajouter dand la procedure qu il faut personaliser les different fichier pour definir les id de salon
