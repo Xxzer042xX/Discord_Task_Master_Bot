@@ -1,8 +1,12 @@
+<h1 align="center"> 🎉 DiscordTaskMasterBot 🎉</h1>
+<hr>
+<br>
+
 <p align="center">
   <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
 </p>
 
-<h1 align="center">DiscordTaskMasterBot est votre assistant polyvalent pour la gestion administrative sur Discord. Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.</h1>
+<h1 align="center">Votre assistant polyvalent pour la gestion administrative sur Discord. Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.</h1>
 <hr>
 <br>
 
