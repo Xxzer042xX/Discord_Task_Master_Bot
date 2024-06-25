@@ -45,35 +45,35 @@
 </details>
 
 <details>
-  <summary>Modération automatique</summary>
+  <summary>⚠️<s>Modération automatique</s> 🛠️</summary>
   
   - **Description :** Filtrage automatique des contenus inappropriés, gestion des spams et des comportements indésirables pour maintenir un environnement sécurisé.
   - **Avantages :** Soulage les modérateurs en automatisant les tâches de gestion et en assurant une application cohérente des règles du serveur.
 </details>
 
 <details>
-  <summary>Systèmes de vote ou de sondage</summary>
+  <summary>⚠️<s>Systèmes de vote ou de sondage</s> 🛠️</summary>
   
   - **Description :** Facilitation de l'organisation de votes ou de sondages parmi les membres pour des décisions communautaires.
   - **Avantages :** Encourage la participation et la démocratie au sein de la communauté, favorisant ainsi un sentiment d'appartenance et d'engagement.
 </details>
 
 <details>
-  <summary>Intégrations avec des services externes</summary>
+  <summary>⚠️<s>Intégrations avec des services externes</s> 🛠️</summary>
   
   - **Description :** Intégration avec d'autres bots ou services externes comme des bots musicaux, des systèmes de support client, etc.
   - **Avantages :** Enrichit l'expérience utilisateur en offrant des fonctionnalités supplémentaires et en connectant le serveur à d'autres plateformes populaires.
 </details>
 
 <details>
-  <summary>Analyse des données et rapports</summary>
+  <summary>⚠️<s>Analyse des données et rapports</s> 🛠️</summary>
   
   - **Description :** Fourniture de statistiques sur l'activité du serveur, les niveaux de participation des membres, etc., pour une prise de décision informée.
   - **Avantages :** Aide à évaluer l'efficacité des stratégies de gestion et à ajuster les paramètres pour optimiser l'expérience utilisateur.
 </details>
 
 <details>
-  <summary>Personnalisation et réglages</summary>
+  <summary>⚠️<s>Personnalisation et réglages</s> 🛠️</summary>
   
   - **Description :** Permet aux administrateurs de personnaliser les comportements du bot selon les besoins spécifiques du serveur.
   - **Avantages :** Offre une flexibilité maximale pour répondre aux exigences uniques de la communauté Discord et pour ajuster le fonctionnement du bot en fonction des retours des utilisateurs.
@@ -181,13 +181,15 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
      ```
 <br>
 
-~~## 🔧 Personnalisation :~~ ⚠️
+## 🔧 Personnalisation :
 ---
+<p align="center">⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités  : ⚠️
+<hr>
 
-DiscordTaskMasterBot est conçu pour être facilement personnalisable :
+<br>
 
 <details>
-  <summary> 1. <strong> Ajouter un rôle spécifique à l'utilisateur :</strong></summary>
+  <summary>⚠️ 1. Ajouter un rôle spécifique à l'utilisateur : 🛠️</summary>
 
   <br>
   
@@ -205,7 +207,7 @@ DiscordTaskMasterBot est conçu pour être facilement personnalisable :
 </details>
    
 <details>
-  <summary> 2. <strong> Gérer les salutations quotidiennes :</strong></summary>
+  <summary>⚠️ <s>2. Gérer les salutations quotidiennes : 🛠️</s></summary>
 
   <br>
   
@@ -217,7 +219,7 @@ DiscordTaskMasterBot est conçu pour être facilement personnalisable :
 </details>
 
 <details>
-  <summary> 3. <strong> Messages :</strong></summary>
+  <summary>⚠️ <s>3. Messages : 🛠️</s></summary>
 
   <br>
   
