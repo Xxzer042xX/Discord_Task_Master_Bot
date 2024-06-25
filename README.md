@@ -108,11 +108,11 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
   - Personnalisez votre message d'erreur dans `handlePiscineCommand`
   <br><br>
   
-  &nbsp;➡ Ouvrez le fichier `lol.js`
+  &nbsp;➡ Ouvrez le fichier `index.js`
   
-  - rgjrjgjrpg
-  - rgjrg
-  - rkkgh
+  - Personnalisez la commande `!votrecommande` dans `handleCustomCommand.` par le nom de commande de votre choix pour atribuer le role,
+
+
 </details>
    
 <details>
@@ -122,9 +122,10 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
   
   &nbsp;➡ Ouvrez le fichier commands.js
   
-   - Personnalisez 'ID_DU_CANAL' dans 'handleDailyGreetings'
-   - Personnalisez votre message dans 'handleDailyGreetings'
-   - Remplacez 'ID_DU_CANAL_DE_BIENVENUE' dans handleDailyGreetings par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+   - Personnalisez `ID_DU_CANAL` dans `handleDailyGreetings`
+   - Personnalisez `votre message` dans `handleDailyGreetings`
+   - Remplacez `ID_DU_CANAL_DE_BIENVENUE` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+   - 
 </details>
 
 <details>
@@ -136,18 +137,6 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
   
   -  Personnalisez les messages dans les fonctions handleCustomCommand, handleDailyGreetings, et countdownToAugust19 selon vos préférences.
   -
-</details>
-
-
-<details>
-  <summary>4. <strong>Nom de la Commande :</strong></summary>
-
-  <br>
-  
-  &nbsp;➡ Ouvrez le fichier `index.js`
-
-  - Personnalisez la commande `!piscine` dans `handleCustomCommand.` par le nom de commande de votre choix,
-
 </details>
 
 <br>
