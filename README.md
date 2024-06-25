@@ -240,10 +240,3 @@ Si vous rencontrez des problèmes lors de l'installation ou si vous avez des que
 
 Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
 
-<br><br>
-
-## 📜 Licence
----
-
-Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
-
