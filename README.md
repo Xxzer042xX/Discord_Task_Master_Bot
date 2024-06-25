@@ -18,13 +18,13 @@
 ⚫ **Exécution des Tâches Complexes :**
   - Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
 
-⚫ **Modération Efficace :**
+⚫ ~~**Modération Efficace :**~~ ⚠️
   - Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
 
 ⚫ **Communication Facilitée :**
   - Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
 
-⚫ **Optimisation Globale :**
+⚫ ~~**Optimisation Globale :**~~ ⚠️
   - Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
 
 <br><br>
@@ -127,11 +127,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
      ├── scheduledTask.js
      └── .env
      ```
+<br>
 
-
-<br><br>
-
-## 🔧 Personnalisation !!!!!!!!!on construct!!!!!! :
+~~## 🔧 Personnalisation :~~ ⚠️
 ---
 
 DiscordTaskMasterBot est conçu pour être facilement personnalisable :
