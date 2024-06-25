@@ -26,237 +26,6 @@
 <br>
 
 ## 📋 Prérequis
----
-
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
-
-### 1. Système d'Exploitation
-
-- **Windows 10, macOS ou Linux** (Ubuntu/Debian recommandé).
-
-### 2. Node.js et npm
-
-Node.js est nécessaire pour exécuter DiscordTaskMasterBot. Voici comment vérifier et installer Node.js et npm :
-
-#### Vérification de Node.js et npm
-
-Pour vérifier si Node.js et npm sont déjà installés sur votre système, ouvrez un terminal (ou Command Prompt sous Windows) et exécutez les commandes suivantes :
-
-```bash
-node -v
-npm -v
-```
-
-Si Node.js et npm sont déjà installés, ces commandes afficheront leurs versions respectives. Si ce n'est pas le cas, suivez les étapes ci-dessous pour les installer :
-
-#### Installation de Node.js et npm
-
-##### Sur Windows et macOS :
-
-1. Téléchargez Node.js depuis [nodejs.org](https://nodejs.org/) et suivez les instructions d'installation.
-
-2. npm est généralement inclus dans l'installation de Node.js sur ces plateformes.
-
-##### Sur Linux (Ubuntu/Debian) :
-
-1. Mise à jour des paquets système avant l'installation :
-
-   ```bash
-   sudo apt update
-   sudo apt upgrade -y
-   ```
-
-2. Installez Node.js et npm avec les commandes suivantes :
-
-   ```bash
-   sudo apt install nodejs npm
-   ```
-
-3. Vérifiez que Node.js et npm sont installés correctement en vérifiant les versions :
-
-   ```bash
-   node -v
-   npm -v
-   ```
-
-### 3. Compte Discord et Bot
-
-- **Créez un compte sur Discord** si vous n'en avez pas encore : [discord.com](https://discord.com/register).
-
-- **Créez une application de bot** sur [Discord Developer Portal](https://discord.com/developers/applications).
-
-<br>
-
-## ⚙️ Installation
----
-
-### 1. Mise à Jour des Paquets (Linux uniquement)
-
-Avant d'installer les dépendances, assurez-vous que vos paquets système sont à jour :
-
-```bash
-sudo apt update
-sudo apt upgrade -y
-```
-
-### 2. Clonage du Répertoire
-
-Clonez le dépôt depuis GitHub en utilisant la commande suivante :
-
-```bash
-git clone git@github.com:Xxzer042xX/discord_bot.git
-cd discord_bot
-```
-
-### 3. Installation des Dépendances
-
-Installez les dépendances nécessaires pour DiscordTaskMasterBot à l'aide de npm :
-
-```bash
-npm install
-```
-
-### 4. Installation de dotenv
-
-dotenv est utilisé pour charger les variables d'environnement à partir du fichier `.env`. Assurez-vous de l'installer comme suit :
-
-```bash
-npm install dotenv
-```
-
-### 5. Configuration des Variables d'Environnement
-
-Créez un fichier `.env` à la racine du projet pour stocker votre token Discord :
-
-```bash
-touch .env
-```
-
-Ajoutez votre token Discord dans le fichier `.env` en remplaçant `VotreTokenDiscord` par votre propre token :
-
-```env
-DISCORD_TOKEN=VotreTokenDiscord
-```
-
-<br>
-
-## 🔧 Personnalisation
----
-
-DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici quelques exemples de personnalisation :
-
-<details>
-  <summary> 1. <strong> Ajouter un rôle spécifique à l'utilisateur :</strong></summary>
-
-  <br>
-  
-  ➡ Ouvrez le fichier `commands.js`
-  
-  - Personnalisez `ID_DU_ROLE` dans `handlePiscineCommand`
-  - Personnalisez votre message de confirmation dans `handlePiscineCommand`
-  - Personnalisez votre message d'erreur dans `handlePiscineCommand`
-  
-  <br><br>
-  
-  ➡ Ouvrez le fichier `index.js`
-  
-  - Personnalisez la commande `!votrecommande` dans `handleCustomCommand` avec le nom de commande de votre choix pour attribuer le rôle.
-</details>
-   
-<details>
-  <summary> 2. <strong> Gérer les salutations quotidiennes :</strong></summary>
-
-  <br>
-  
-  ➡ Ouvrez le fichier `commands.js`
-  
-  - Personnalisez `ID_DU_CANAL` dans `handleDailyGreetings`
-  - Personnalisez `votre message` dans `handleDailyGreetings`
-  - Remplacez `ID_DU_CANAL_DE_BIENVENUE` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
-</details>
-
-<details>
-  <summary> 3. <strong> Messages :</strong></summary>
-
-  <br>
-  
-  ➡ Ouvrez le fichier
-
-  - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
-</details>
-
-<br>
-
-## 🚀 Utilisation
----
-
-### Démarrage du Bot
-
-Pour lancer DiscordTaskMasterBot, utilisez la commande suivante dans votre terminal :
-
-```bash
-npm index.js
-```
-
-Assurez-vous que votre bot est invité sur votre serveur Discord et qu'il dispose des autorisations nécessaires pour fonctionner correctement.
-
-<br>
-
-## 🤝 Contribution
----
-
-Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request. Le projet est sous licence [ISC](https://opensource.org/licenses/ISC).
-
-### Comment Contribuer :
-
-1. Forkez le dépôt.
-2. Créez une branche pour vos modifications (`git checkout -b feature-ameliorations`).
-3. Commitez vos changements (`git commit -am 'Ajout de nouvelles fonctionnalités'`).
-4. Poussez la branche (`git push origin feature-ameliorations`).
-5. Créez une nouvelle Pull Request.
-
-<br>
-
-## 📜 Licence
----
-
-Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
-
-### Besoin d'Aide ?
-
-Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter la documentation de Discord.js et à poser des questions sur des forums de développeurs comme Stack Overflow.
-
-Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-# 🤖 Guide Complet pour Créer un Bot Discord avec 🎉 DiscordTaskMasterBot 🎉
-
-## Introduction
-
-Ce guide vous guidera à travers toutes les étapes nécessaires pour créer et déployer un bot Discord en utilisant Discord.js pour l'interaction avec l'API Discord et schedule pour la planification des tâches récurrentes.
-
-## 📋 Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
 
@@ -351,6 +120,54 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
      ```
 
 
+<br>
+
+## 🔧 Personnalisation
+---
+
+DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici quelques exemples de personnalisation :
+
+<details>
+  <summary> 1. <strong> Ajouter un rôle spécifique à l'utilisateur :</strong></summary>
+
+  <br>
+  
+  ➡ Ouvrez le fichier `commands.js`
+  
+  - Personnalisez `ID_DU_ROLE` dans `handlePiscineCommand`
+  - Personnalisez votre message de confirmation dans `handlePiscineCommand`
+  - Personnalisez votre message d'erreur dans `handlePiscineCommand`
+  
+  <br><br>
+  
+  ➡ Ouvrez le fichier `index.js`
+  
+  - Personnalisez la commande `!votrecommande` dans `handleCustomCommand` avec le nom de commande de votre choix pour attribuer le rôle.
+</details>
+   
+<details>
+  <summary> 2. <strong> Gérer les salutations quotidiennes :</strong></summary>
+
+  <br>
+  
+  ➡ Ouvrez le fichier `commands.js`
+  
+  - Personnalisez `ID_DU_CANAL` dans `handleDailyGreetings`
+  - Personnalisez `votre message` dans `handleDailyGreetings`
+  - Remplacez `ID_DU_CANAL_DE_BIENVENUE` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+</details>
+
+<details>
+  <summary> 3. <strong> Messages :</strong></summary>
+
+  <br>
+  
+  ➡ Ouvrez le fichier
+
+  - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
+</details>
+
+<br>
 
 ## 🚀 Déploiement
 
@@ -360,14 +177,34 @@ Pour déployer votre bot Discord, vous devez vous assurer que :
 - Les permissions nécessaires sont accordées à votre bot sur votre serveur Discord.
 - Votre bot est lancé en utilisant `node index.js` sur votre serveur.
 
+<br>
+
 ## 🤝 Contribution
-
-Vous pouvez contribuer au développement de ce bot en forkeant ce dépôt, en créant une branche pour vos modifications et en soumettant une pull request. Assurez-vous de suivre les meilleures pratiques de développement de logiciels.
-
-## 📜 Licence
-
-Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT).
-
 ---
 
-Ce guide devrait vous fournir une base solide pour démarrer avec la création d'un bot Discord en utilisant Discord.js et schedule. N'oubliez pas de consulter la documentation officielle de [Discord.js](https://discord.js.org/#/) pour explorer plus de fonctionnalités et d'approfondissements. Bon développement ! 🚀
+Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request. Le projet est sous licence [ISC](https://opensource.org/licenses/ISC).
+
+### Comment Contribuer :
+
+1. Forkez le dépôt.
+2. Créez une branche pour vos modifications (`git checkout -b feature-ameliorations`).
+3. Commitez vos changements (`git commit -am 'Ajout de nouvelles fonctionnalités'`).
+4. Poussez la branche (`git push origin feature-ameliorations`).
+5. Créez une nouvelle Pull Request.
+
+<br>
+
+## Besoin d'Aide ?
+---
+
+Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter la documentation de Discord.js et à poser des questions sur des forums de développeurs comme Stack Overflow.
+
+Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
+
+<br>
+
+## 📜 Licence
+---
+
+Ce projet est sous licence [ISC](https://opensource.org/licenses/ISC).
+
