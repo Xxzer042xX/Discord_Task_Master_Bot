@@ -19,6 +19,7 @@
 
 <details>
   <summary>Attribution de rôle via commande</summary>
+  <br>
   
   - **Description :** Permet de gérer l'accès aux canaux spécifiques ou aux fonctionnalités du serveur en attribuant des rôles aux utilisateurs via des commandes Discord.
   - **Avantages :** Facilite la gestion des autorisations et garantit une expérience utilisateur personnalisée et sécurisée.
@@ -26,6 +27,7 @@
 
 <details>
   <summary>Accueil des nouveaux utilisateurs</summary>
+  <br>
   
   - **Description :** Accueille automatiquement les nouveaux membres en les dirigeant vers les règles et conditions générales du serveur.
   - **Avantages :** Établit un environnement accueillant et bien géré dès l'arrivée des nouveaux membres, favorisant ainsi une intégration harmonieuse.
@@ -33,6 +35,7 @@
 
 <details>
   <summary>Décompte pour un événement</summary>
+  <br>
   
   - **Description :** Affiche un décompte jusqu'à une date et une heure spécifiques pour informer les membres de l'approche d'événements importants.
   - **Avantages :** Fournit une anticipation et une organisation efficace autour des événements communautaires ou des échéances importantes.
@@ -40,6 +43,7 @@
 
 <details>
   <summary>Salutation quotidienne</summary>
+  <br>
   
   - **Description :** Accueille les utilisateurs une fois par jour lors de leur première interaction, renforçant ainsi l'engagement et le sentiment de communauté.
   - **Avantages :** Maintient une interaction régulière et personnalisée avec les membres, augmentant ainsi l'activité et la fidélité au serveur.
@@ -47,6 +51,7 @@
 
 <details>
   <summary>⚠️<s>Modération automatique</s> 🛠️</summary>
+  <br>
   
   - **Description :** Filtrage automatique des contenus inappropriés, gestion des spams et des comportements indésirables pour maintenir un environnement sécurisé.
   - **Avantages :** Soulage les modérateurs en automatisant les tâches de gestion et en assurant une application cohérente des règles du serveur.
@@ -54,6 +59,7 @@
 
 <details>
   <summary>⚠️<s>Systèmes de vote ou de sondage</s> 🛠️</summary>
+  <br>
   
   - **Description :** Facilitation de l'organisation de votes ou de sondages parmi les membres pour des décisions communautaires.
   - **Avantages :** Encourage la participation et la démocratie au sein de la communauté, favorisant ainsi un sentiment d'appartenance et d'engagement.
@@ -61,6 +67,7 @@
 
 <details>
   <summary>⚠️<s>Intégrations avec des services externes</s> 🛠️</summary>
+  <br>
   
   - **Description :** Intégration avec d'autres bots ou services externes comme des bots musicaux, des systèmes de support client, etc.
   - **Avantages :** Enrichit l'expérience utilisateur en offrant des fonctionnalités supplémentaires et en connectant le serveur à d'autres plateformes populaires.
@@ -68,6 +75,7 @@
 
 <details>
   <summary>⚠️<s>Analyse des données et rapports</s> 🛠️</summary>
+  <br>
   
   - **Description :** Fourniture de statistiques sur l'activité du serveur, les niveaux de participation des membres, etc., pour une prise de décision informée.
   - **Avantages :** Aide à évaluer l'efficacité des stratégies de gestion et à ajuster les paramètres pour optimiser l'expérience utilisateur.
@@ -75,6 +83,7 @@
 
 <details>
   <summary>⚠️<s>Personnalisation et réglages</s> 🛠️</summary>
+  <br>
   
   - **Description :** Permet aux administrateurs de personnaliser les comportements du bot selon les besoins spécifiques du serveur.
   - **Avantages :** Offre une flexibilité maximale pour répondre aux exigences uniques de la communauté Discord et pour ajuster le fonctionnement du bot en fonction des retours des utilisateurs.
