@@ -1,19 +1,18 @@
-<h1 align="center">🎉 DiscordTaskMasterBot 🎉
+<h1 align="center"> 🎉 DiscordTaskMasterBot 🎉 
 
-<h1 align="center">Votre assistant polyvalent pour la gestion administrative sur Discord.
+<h2 align="center">Votre assistant polyvalent pour la gestion administrative sur Discord.<hr>
+  
 <br>
 
-<p align="center">
-  <img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
-</p>
+<p align="center"><img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;">
+  
 
-<p align="center">
-  <strong>▶ Votre assistant polyvalent pour la gestion administrative sur Discord.◀</strong>
-</p>
+
 <br>
-<p align="center">
-  <strong>▶ Intégré de manière transparente, il simplifie la modération, facilite la communication et optimise votre serveur de manière efficace.◀</strong>
-</p>
+
+<p align="center"><strong>▶ &nbsp;&nbsp;Simplifie la modération, facilite la communication, &nbsp;&nbsp;◀</strong> 
+<p align="center"><strong>▶ &nbsp;&nbsp;et optimise votre serveur de manière efficace. &nbsp;&nbsp;◀</strong>
+
 
 <br><br>
 
@@ -104,7 +103,7 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
   
   &nbsp;➡ Ouvrez le fichier `commands.js`
   
-  - Personnalisez `'ID_DU_ROLE'` dans `'handlePiscineCommand'`
+  - Personnalisez `ID_DU_ROLE` dans `handlePiscineCommand`
   - Personnalisez votre message de confirmation dans `handlePiscineCommand`
   - Personnalisez votre message d'erreur dans `handlePiscineCommand`
   <br><br>
@@ -121,23 +120,34 @@ Avant d'installer et de personnaliser DiscordTaskMasterBot, assurez-vous de disp
 
   <br>
   
-  &nbsp;➡ Ouvrez le fichier commands.js
+  &nbsp;➡ Ouvrez le fichier commands.js
   
-  - Personnalisez 'ID_DU_CANAL' dans 'handleDailyGreetings'
-  - Personnalisez votre message dans 'handleDailyGreetings'
-  - Remplacez 'ID_DU_CANAL_DE_BIENVENUE' dans handleDailyGreetings par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
+   - Personnalisez 'ID_DU_CANAL' dans 'handleDailyGreetings'
+   - Personnalisez votre message dans 'handleDailyGreetings'
+   - Remplacez 'ID_DU_CANAL_DE_BIENVENUE' dans handleDailyGreetings par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
 </details>
 
 <details>
   <summary>3. <strong>Messages :</strong></summary>
-Personnalisez les messages dans les fonctions handleCustomCommand, handleDailyGreetings, et countdownToAugust19 selon vos préférences.
+
+  <br>
+  
+  &nbsp;➡ Ouvrez le fichier
+  
+  -  Personnalisez les messages dans les fonctions handleCustomCommand, handleDailyGreetings, et countdownToAugust19 selon vos préférences.
+  -
 </details>
 
 
 <details>
   <summary>4. <strong>Nom de la Commande :</strong></summary>
-Pour personnaliser le nom de la commande, ouvrez le fichier index.js et trouvez la fonction handleCustomCommand.
-Modifiez '!piscine' par le nom de commande de votre choix, par exemple '!moncommande'.
+
+  <br>
+  
+  &nbsp;➡ Ouvrez le fichier `index.js`
+
+  - Personnalisez la commande `!piscine` dans `handleCustomCommand.` par le nom de commande de votre choix,
+
 </details>
 
 <br>
