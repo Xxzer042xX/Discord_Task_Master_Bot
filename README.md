@@ -12,7 +12,7 @@
 
 <br><br>
 
-## 🛠️ Fonctionnalités Clés
+## 🛠️ Fonctionnalités Clés :
 ---
 
 ⚫ **Exécution des Tâches Complexes :** Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
@@ -23,9 +23,9 @@
 
 ⚫ **Optimisation Globale :** Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
 
-<br>
+<br><br>
 
-## 📋 Prérequis
+## 📋 Prérequis :
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
 
@@ -78,7 +78,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
    - Créez un compte sur [Discord](https://discord.com) si vous n'en avez pas encore.
    - Créez une application de bot sur le [Discord Developer Portal](https://discord.com/developers/applications).
 
-## ⚙️ Installation
+<br><br>
+
+## ⚙️ Installation :
 
 1. **Clonage du Répertoire**
    - Clonez le dépôt depuis GitHub en utilisant la commande suivante :
@@ -120,9 +122,9 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
      ```
 
 
-<br>
+<br><br>
 
-## 🔧 Personnalisation
+## 🔧 Personnalisation :
 ---
 
 DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici quelques exemples de personnalisation :
@@ -167,9 +169,9 @@ DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici que
   - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
 </details>
 
-<br>
+<br><br>
 
-## 🚀 Déploiement
+## 🚀 Déploiement :
 
 Pour déployer votre bot Discord, vous devez vous assurer que :
 
@@ -177,9 +179,9 @@ Pour déployer votre bot Discord, vous devez vous assurer que :
 - Les permissions nécessaires sont accordées à votre bot sur votre serveur Discord.
 - Votre bot est lancé en utilisant `node index.js` sur votre serveur.
 
-<br>
+<br><br>
 
-## 🤝 Contribution
+## 🤝 Contribution :
 ---
 
 Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request. Le projet est sous licence [ISC](https://opensource.org/licenses/ISC).
@@ -192,7 +194,7 @@ Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le 
 4. Poussez la branche (`git push origin feature-ameliorations`).
 5. Créez une nouvelle Pull Request.
 
-<br>
+<br><br>
 
 ## 🆘 Besoin d'Aide ?
 ---
@@ -201,7 +203,7 @@ Si vous rencontrez des problèmes lors de l'installation ou si vous avez des que
 
 Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
 
-<br>
+<br><br>
 
 ## 📜 Licence
 ---
