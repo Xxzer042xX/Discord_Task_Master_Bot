@@ -134,7 +134,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 ## 🔧 Personnalisation :
 ---
 
-DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici quelques exemples de personnalisation :
+DiscordTaskMasterBot est conçu pour être facilement personnalisable :
 
 <details>
   <summary> 1. <strong> Ajouter un rôle spécifique à l'utilisateur :</strong></summary>
@@ -173,7 +173,6 @@ DiscordTaskMasterBot est conçu pour être facilement personnalisable. Voici que
   
   ➡ Ouvrez le fichier
 
-  - Personnalisez les messages dans les fonctions `handleCustomCommand`, `handleDailyGreetings`, et `countdownToAugust19` selon vos préférences.
 </details>
 
 <br><br>
