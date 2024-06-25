@@ -131,7 +131,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 
 <br><br>
 
-## 🔧 Personnalisation :
+## 🔧 Personnalisation !!!!!!!!!on construct!!!!!! :
 ---
 
 DiscordTaskMasterBot est conçu pour être facilement personnalisable :
