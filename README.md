@@ -10,8 +10,8 @@
 <br>
 
 ## 🛠️ Fonctionnalités Clés :
-
-<p align="center"><strong> ▶ Simplifie la modération, facilite la communication, optimise votre serveur de manière efficace◀ </strong></p>
+> [!NOTE]
+> <p align="center"><strong> ▶ Simplifie la modération, facilite la communication, optimise votre serveur de manière efficace◀ </strong></p>
 
 ---
 
