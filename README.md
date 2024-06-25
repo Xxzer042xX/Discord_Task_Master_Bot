@@ -193,9 +193,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 <br>
 
 ## 🔧 Personnalisation :
-
-<p align="center">⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités  : ⚠️
-
+> [!WARNING]
+> ⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités  : ⚠️
 ---
 
 <br>
@@ -259,27 +258,54 @@ Pour déployer votre bot Discord, suivez ces étapes :
 
    - L'ajout de `&` à la fin de la commande permet à Node.js de lancer le processus en arrière-plan tout en laissant le terminal disponible pour d'autres commandes. Cependant, ce n'est pas une solution robuste pour la gestion à long terme.
 
-3. **Exécution en Tâche de Fond avec PM2**
-   - PM2 est un gestionnaire de processus Node.js qui permet de démarrer, arrêter et gérer des applications Node.js de manière robuste.
+> [!TIP]
+>
+> 3. **Exécution en Tâche de Fond avec PM2**
+>  - PM2 est un gestionnaire de processus Node.js qui permet de démarrer, arrêter et gérer des applications Node.js de manière robuste.
+>  - Pour installer PM2 globalement sur votre système, utilisez la commande suivante (cela nécessite npm installé) :
+>
+>    ```bash
+>    npm install pm2 -g
+>    ```
+>  - Une fois PM2 installé, vous pouvez démarrer votre bot en tant que processus PM2 en utilisant la commande :
+>    ```bash
+>    pm2 start index.js --name "discord-bot"
+>    ```
+>  - Cela lancera votre bot Discord en arrière-plan sous le nom "discord-bot". Vous pouvez gérer ce processus avec des commandes telles que `pm2 restart`, `pm2 stop`, `pm2 delete`, etc.
+>  - Pour plus de détails sur la configuration et les fonctionnalités de PM2, consultez la [documentation officielle de PM2](https://pm2.keymetrics.io/docs/).
 
-   - Pour installer PM2 globalement sur votre système, utilisez la commande suivante (cela nécessite npm installé) :
+> [!NOTE]
+>  - Je recommande l'utilisation de PM2 pour le déploiement de votre bot Discord, car cela garantit une disponibilité continue et une gestion facile des processus Node.js. PM2 offre également des fonctionnalités telles que le redémarrage automatique en cas de panne, la surveillance des ressources, et plus encore.
 
-     ```bash
-     npm install pm2 -g
-     ```
 
-   - Une fois PM2 installé, vous pouvez démarrer votre bot en tant que processus PM2 en utilisant la commande :
 
-     ```bash
-     pm2 start index.js --name "discord-bot"
-     ```
 
-   - Cela lancera votre bot Discord en arrière-plan sous le nom "discord-bot". Vous pouvez gérer ce processus avec des commandes telles que `pm2 restart`, `pm2 stop`, `pm2 delete`, etc.
 
-   - Pour plus de détails sur la configuration et les fonctionnalités de PM2, consultez la [documentation officielle de PM2](https://pm2.keymetrics.io/docs/).
 
-4. **Recommandation**
-   - Je recommande l'utilisation de PM2 pour le déploiement de votre bot Discord, car cela garantit une disponibilité continue et une gestion facile des processus Node.js. PM2 offre également des fonctionnalités telles que le redémarrage automatique en cas de panne, la surveillance des ressources, et plus encore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 
