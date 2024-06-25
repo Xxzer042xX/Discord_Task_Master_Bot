@@ -15,13 +15,17 @@
 ## 🛠️ Fonctionnalités Clés :
 ---
 
-⚫ **Exécution des Tâches Complexes :** Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
+⚫ **Exécution des Tâches Complexes :**
+  - Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
 
-⚫ **Modération Efficace :** Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
+⚫ **Modération Efficace :**
+  - Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
 
-⚫ **Communication Facilitée :** Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
+⚫ **Communication Facilitée :**
+  - Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
 
-⚫ **Optimisation Globale :** Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
+⚫ **Optimisation Globale :**
+  - Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
 
 <br><br>
 
@@ -187,7 +191,7 @@ Pour déployer votre bot Discord, vous devez vous assurer que :
 ## 🤝 Contribution :
 ---
 
-Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request. Le projet est sous licence [ISC](https://opensource.org/licenses/ISC).
+Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request.
 
 ### Comment Contribuer :
 
