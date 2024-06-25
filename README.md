@@ -86,7 +86,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
    - Clonez le dépôt depuis GitHub en utilisant la commande suivante :
 
      ```bash
-     git clone git@github.com:votre-utilisateur/votre-repo.git
+     git clone git@github.com:Xxzer042xX/discord_bot.git
      cd votre-repo
      ```
 
@@ -115,10 +115,13 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 
      ```
      ├── node_modules/
+     ├── README.md
+     ├── commande.js
      ├── index.js
-     ├── .env
+     ├── package-lock.json
      ├── package.json
-     └── ...
+     ├── scheduledTask.js
+     └── .env
      ```
 
 
