@@ -7,25 +7,77 @@
   
 <br>
 
-<p align="center"><strong> ▶ &nbsp;&nbsp; Simplifie la modération, facilite la communication, &nbsp;&nbsp; ◀ </strong></p>
-<p align="center"><strong> ▶ &nbsp;&nbsp; et optimise votre serveur de manière efficace. &nbsp;&nbsp; ◀ </strong></p>
+<p align="center"><strong> ▶ Simplifie la modération.◀ </strong></p>
+<p align="center"><strong> ▶ Facilite la communication.◀ </strong></p>
+<p align="center"><strong> ▶ Optimise votre serveur de manière efficace.◀ </strong></p>
 
 <br><br>
 
 ## 🛠️ Fonctionnalités Clés :
 ---
 
-⚫ **Exécution des Tâches Complexes :**
-  - Automatise efficacement les actions nécessaires à la gestion quotidienne de votre serveur.
+<details>
+  <summary>Attribution de rôle via commande</summary>
+  
+  - **Description :** Permet de gérer l'accès aux canaux spécifiques ou aux fonctionnalités du serveur en attribuant des rôles aux utilisateurs via des commandes Discord.
+  - **Avantages :** Facilite la gestion des autorisations et garantit une expérience utilisateur personnalisée et sécurisée.
+</details>
 
-⚫ ~~**Modération Efficace :**~~ ⚠️
-  - Maintient l'ordre et la sécurité avec des outils sophistiqués de gestion des utilisateurs et de filtrage du contenu.
+<details>
+  <summary>Accueil des nouveaux utilisateurs</summary>
+  
+  - **Description :** Accueille automatiquement les nouveaux membres en les dirigeant vers les règles et conditions générales du serveur.
+  - **Avantages :** Établit un environnement accueillant et bien géré dès l'arrivée des nouveaux membres, favorisant ainsi une intégration harmonieuse.
+</details>
 
-⚫ **Communication Facilitée :**
-  - Accueille les nouveaux membres, envoie des messages personnalisés et maintient une interaction dynamique.
+<details>
+  <summary>Décompte pour un événement</summary>
+  
+  - **Description :** Affiche un décompte jusqu'à une date et une heure spécifiques pour informer les membres de l'approche d'événements importants.
+  - **Avantages :** Fournit une anticipation et une organisation efficace autour des événements communautaires ou des échéances importantes.
+</details>
 
-⚫ ~~**Optimisation Globale :**~~ ⚠️
-  - Utilise des stratégies intégrées pour améliorer l'efficacité opérationnelle et la convivialité de votre serveur.
+<details>
+  <summary>Salutation quotidienne</summary>
+  
+  - **Description :** Accueille les utilisateurs une fois par jour lors de leur première interaction, renforçant ainsi l'engagement et le sentiment de communauté.
+  - **Avantages :** Maintient une interaction régulière et personnalisée avec les membres, augmentant ainsi l'activité et la fidélité au serveur.
+</details>
+
+<details>
+  <summary>Modération automatique</summary>
+  
+  - **Description :** Filtrage automatique des contenus inappropriés, gestion des spams et des comportements indésirables pour maintenir un environnement sécurisé.
+  - **Avantages :** Soulage les modérateurs en automatisant les tâches de gestion et en assurant une application cohérente des règles du serveur.
+</details>
+
+<details>
+  <summary>Systèmes de vote ou de sondage</summary>
+  
+  - **Description :** Facilitation de l'organisation de votes ou de sondages parmi les membres pour des décisions communautaires.
+  - **Avantages :** Encourage la participation et la démocratie au sein de la communauté, favorisant ainsi un sentiment d'appartenance et d'engagement.
+</details>
+
+<details>
+  <summary>Intégrations avec des services externes</summary>
+  
+  - **Description :** Intégration avec d'autres bots ou services externes comme des bots musicaux, des systèmes de support client, etc.
+  - **Avantages :** Enrichit l'expérience utilisateur en offrant des fonctionnalités supplémentaires et en connectant le serveur à d'autres plateformes populaires.
+</details>
+
+<details>
+  <summary>Analyse des données et rapports</summary>
+  
+  - **Description :** Fourniture de statistiques sur l'activité du serveur, les niveaux de participation des membres, etc., pour une prise de décision informée.
+  - **Avantages :** Aide à évaluer l'efficacité des stratégies de gestion et à ajuster les paramètres pour optimiser l'expérience utilisateur.
+</details>
+
+<details>
+  <summary>Personnalisation et réglages</summary>
+  
+  - **Description :** Permet aux administrateurs de personnaliser les comportements du bot selon les besoins spécifiques du serveur.
+  - **Avantages :** Offre une flexibilité maximale pour répondre aux exigences uniques de la communauté Discord et pour ajuster le fonctionnement du bot en fonction des retours des utilisateurs.
+</details>
 
 <br><br>
 
