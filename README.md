@@ -1,20 +1,21 @@
 <h1 align="center"> 🎉 DiscordTaskMasterBot 🎉 </h1>
 
-<h2 align="center"> Votre assistant polyvalent pour la gestion administrative sur Discord. </h2>
-<hr>
+<p align="center"> Votre assistant polyvalent pour la gestion administrative sur Discord.</p>
+
+---
 
 <p align="center"><img src="images/discord.png" alt="discord_bot" style="width: 50%; height: auto;"></p>
   
+
 <br>
 
-<p align="center"><strong> ▶ Simplifie la modération.◀ </strong></p>
-<p align="center"><strong> ▶ Facilite la communication.◀ </strong></p>
-<p align="center"><strong> ▶ Optimise votre serveur de manière efficace.◀ </strong></p>
-
-<br><br>
-
 ## 🛠️ Fonctionnalités Clés :
+
+<p align="center"><strong> ▶ Simplifie la modération, facilite la communication, optimise votre serveur de manière efficace◀ </strong></p>
+
 ---
+
+<br>
 
 <details>
   <summary>Attribution de rôle via commande</summary>
@@ -82,6 +83,7 @@
 <br><br>
 
 ## 📋 Prérequis :
+---
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
 
@@ -182,9 +184,10 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 <br>
 
 ## 🔧 Personnalisation :
----
+
 <p align="center">⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités  : ⚠️
-<hr>
+
+---
 
 <br>
 
@@ -230,6 +233,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 <br><br>
 
 ## 🚀 Déploiement
+---
 
 Pour déployer votre bot Discord, suivez ces étapes :
 
