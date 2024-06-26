@@ -1,7 +1,6 @@
+// Importation de greetedMembersToday depuis greetedMembers.js
+const { greetedMembersToday } = require('./greetedMembers');
 const { sendMessage } = require('./commands'); // Importation de la fonction sendMessage depuis commands.js
-
-// Création d'un ensemble pour suivre les membres salués aujourd'hui (si ce n'est pas déjà défini dans commands.js)
-const greetedMembersToday = new Set();
 
 // Fonction pour réinitialiser les salutations quotidiennes
 function resetDailyGreetings() {
@@ -14,7 +13,7 @@ function resetDailyGreetings() {
 function countdownToAugust19(client) {
     const today = new Date();
     const currentYear = today.getFullYear();
-    const targetDate = new Date(currentYear, 7, 19); // Août est le mois 7 en index 0
+    const targetDate = new Date(currentYear, 7, 19); // Août est le mois 7 en index 0(remplacez par votre date d event)
 
     // Si la date actuelle dépasse le 19 août, ciblez le 19 août de l'année suivante
     if (today > targetDate) {
@@ -26,9 +25,9 @@ function countdownToAugust19(client) {
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
     // Construction et envoi du message
-    const messageText = `Il reste ${diffDays} jours avant le 19 août ${targetDate.getFullYear()}.`;
-    const eventLink = "https://discord.com/events/ID_DE_L_EVENEMENT";
-    const message = `@everyone ${messageText} \n[Event Link](${eventLink})`; // Remplacez 'ID_DE_L_EVENEMENT' par l'ID réel de votre événement Discord
+    const messageText = `Votre${diffDays} message${targetDate.getFullYear()}.`;//Remplacez "Votre message par le message souhaitez
+    const eventLink = "https://discord.com/events/ID_DE_L_EVENEMENT"; // Remplacez 'ID_DE_L_EVENEMENT' par l'ID réel de votre événement Discord
+    const message = `@everyone ${messageText} \n[Event Link](${eventLink})`;
 
     // ID du canal cible
     const channelId = 'ID_DU_CANAL'; // Remplacez 'ID_DU_CANAL' par l'ID réel du canal cible

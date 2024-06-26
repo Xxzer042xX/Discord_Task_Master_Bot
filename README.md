@@ -223,6 +223,8 @@
   ├── node_modules/
   ├── README.md
   ├── commande.js
+  ├── greetedMembers.js
+  ├── images
   ├── index.js
   ├── package-lock.json
   ├── package.json

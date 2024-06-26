@@ -1,9 +1,15 @@
-// Importation des modules nécessaires
-require('dotenv').config(); // Charge les variables d'environnement à partir d'un fichier .env
-const { Client, GatewayIntentBits } = require('discord.js'); // Importation des classes Client et GatewayIntentBits de discord.js
-const schedule = require('node-schedule'); // Importation de node-schedule pour planifier des tâches
-const { handlePiscineCommand, handleDailyGreetings, sendMessage } = require('./commands'); // Importation des fonctions depuis commands.js
-const { countdownToAugust19, resetDailyGreetings } = require('./scheduledTasks'); // Importation des fonctions depuis scheduledTasks.js
+// Import des modules nécessaires avec gestion des erreurs
+try {
+    require('dotenv').config(); // Charge les variables d'environnement à partir d'un fichier .env
+    const { Client, GatewayIntentBits } = require('discord.js'); // Importation des classes Client et GatewayIntentBits de discord.js
+    const schedule = require('node-schedule'); // Importation de node-schedule pour planifier des tâches
+    const { handlePiscineCommand, handleDailyGreetings, sendMessage } = require('./commands'); // Importation des fonctions depuis commands.js
+    const { countdownToAugust19, resetDailyGreetings } = require('./scheduledTasks'); // Importation des fonctions depuis scheduledTasks.js
+    const { greetedMembersToday } = require('./greetedMembers'); // Importation de greetedMembersToday depuis greetedMembers.js
+} catch (error) {
+    console.error('Erreur lors de l\'importation des modules :', error);
+    process.exit(1); // Arrêt du processus en cas d'erreur
+}
 
 // Création d'une instance de client Discord
 const client = new Client({
@@ -23,7 +29,7 @@ client.once('ready', () => {
 
 // Événement déclenché lorsqu'un nouveau membre rejoint la guilde
 client.on('guildMemberAdd', async (member) => {
-    const welcomeMessage = `Bienvenue ${member}! Assurez-vous de lire les règles et d'accepter avec "!ok" ici.`;
+    const welcomeMessage = `Votre${member}message de bienvenue`;// Remplacez 'Votre message de bienvenue' par votre message souhaitez
     await sendMessage(client, 'ID_DU_CANAL_DE_BIENVENUE', welcomeMessage); // Remplacez 'ID_DU_CANAL_DE_BIENVENUE' par l'ID du canal de bienvenue
 });
 
@@ -32,8 +38,8 @@ client.on('messageCreate', async (message) => {
     // Ignore les messages provenant des bots
     if (message.author.bot) return;
 
-    // Vérifie si le message est la commande !votre commande
-    if (message.content === 'votre_commande') { //Remplacez  'votre_comande par votre commande'
+    // Vérifie si le message est la commande !votre_commande
+    if (message.content === 'votre_commande') { //Remplacez  'votre_commande' par votre commande spécifique
         await handlePiscineCommand(message);
     } else {
         // Gère les salutations quotidiennes
