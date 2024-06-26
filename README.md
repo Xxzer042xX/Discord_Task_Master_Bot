@@ -315,7 +315,7 @@
 >    pm2 start index.js --name "discord-bot"
 >    ```
 >  - Cela lancera votre bot Discord en arrière-plan sous le nom "discord-bot". Vous pouvez gérer ce processus avec des commandes telles que `pm2 restart`, `pm2 stop`, `pm2 delete`, etc.
->  - Pour plus de détails sur la configuration et les fonctionnalités de PM2, consultez la [documentation officielle de PM2]([https://pm2.keymetrics.io/docs/](https://pm2.keymetrics.io/)).
+>  - Pour plus de détails sur la configuration et les fonctionnalités de PM2, consultez la [documentation officielle de PM2](https://pm2.keymetrics.io/).
 
 <br><br>
 
