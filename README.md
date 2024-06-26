@@ -11,11 +11,11 @@
 
 ## 🛠️ Fonctionnalités Clés :
 > [!NOTE]
-> <p align="center"><strong> ▶ Simplifie la modération, facilite la communication, optimise votre serveur de manière efficace◀ </strong></p>
+> <p align="center"><strong>Simplifie la modération, facilite la communication, et optimise votre serveur de manière efficace.</strong></p>
 
 ---
 
-<br>
+<br><br>
 
 <details>
   <summary>Attribution de rôle via commande</summary>
@@ -25,6 +25,8 @@
   - **Avantages :** Facilite la gestion des autorisations et garantit une expérience utilisateur personnalisée et sécurisée.
 </details>
 
+<br>
+
 <details>
   <summary>Accueil des nouveaux utilisateurs</summary>
   <br>
@@ -32,6 +34,8 @@
   - **Description :** Accueille automatiquement les nouveaux membres en les dirigeant vers les règles et conditions générales du serveur.
   - **Avantages :** Établit un environnement accueillant et bien géré dès l'arrivée des nouveaux membres, favorisant ainsi une intégration harmonieuse.
 </details>
+
+<br>
 
 <details>
   <summary>Décompte pour un événement</summary>
@@ -41,6 +45,8 @@
   - **Avantages :** Fournit une anticipation et une organisation efficace autour des événements communautaires ou des échéances importantes.
 </details>
 
+<br>
+
 <details>
   <summary>Salutation quotidienne</summary>
   <br>
@@ -48,6 +54,8 @@
   - **Description :** Accueille les utilisateurs une fois par jour lors de leur première interaction, renforçant ainsi l'engagement et le sentiment de communauté.
   - **Avantages :** Maintient une interaction régulière et personnalisée avec les membres, augmentant ainsi l'activité et la fidélité au serveur.
 </details>
+
+<br>
 
 <details>
   <summary>⚠️<s>Modération automatique</s> 🛠️</summary>
@@ -57,6 +65,8 @@
   - **Avantages :** Soulage les modérateurs en automatisant les tâches de gestion et en assurant une application cohérente des règles du serveur.
 </details>
 
+<br>
+
 <details>
   <summary>⚠️<s>Systèmes de vote ou de sondage</s> 🛠️</summary>
   <br>
@@ -64,6 +74,8 @@
   - **Description :** Facilitation de l'organisation de votes ou de sondages parmi les membres pour des décisions communautaires.
   - **Avantages :** Encourage la participation et la démocratie au sein de la communauté, favorisant ainsi un sentiment d'appartenance et d'engagement.
 </details>
+
+<br>
 
 <details>
   <summary>⚠️<s>Intégrations avec des services externes</s> 🛠️</summary>
@@ -73,6 +85,8 @@
   - **Avantages :** Enrichit l'expérience utilisateur en offrant des fonctionnalités supplémentaires et en connectant le serveur à d'autres plateformes populaires.
 </details>
 
+<br>
+
 <details>
   <summary>⚠️<s>Analyse des données et rapports</s> 🛠️</summary>
   <br>
@@ -80,6 +94,8 @@
   - **Description :** Fourniture de statistiques sur l'activité du serveur, les niveaux de participation des membres, etc., pour une prise de décision informée.
   - **Avantages :** Aide à évaluer l'efficacité des stratégies de gestion et à ajuster les paramètres pour optimiser l'expérience utilisateur.
 </details>
+
+<br>
 
 <details>
   <summary>⚠️<s>Personnalisation et réglages</s> 🛠️</summary>
@@ -89,20 +105,26 @@
   - **Avantages :** Offre une flexibilité maximale pour répondre aux exigences uniques de la communauté Discord et pour ajuster le fonctionnement du bot en fonction des retours des utilisateurs.
 </details>
 
-<br><br>
+<br><br><br>
 
 ## 📋 Prérequis :
+> [!WARNING]
+> <p align="center">⚠️ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système ! ⚠️
 ---
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
+<br><br>
 
-1. **Système d'Exploitation**
+1. **Système d'Exploitation :**
    - Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
 
-2. **Node.js et npm**
+<br>
+
+2. **Node.js et npm :**
    - Node.js est nécessaire pour exécuter DiscordTaskMasterBot. Voici comment vérifier et installer Node.js et npm :
 
-   ### Vérification de Node.js et npm
+<br>
+
+   ### Vérification de Node.js et npm :
 
    Ouvrez un terminal (ou Command Prompt sous Windows) et exécutez les commandes suivantes :
 
@@ -145,9 +167,11 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
    - Créez un compte sur [Discord](https://discord.com) si vous n'en avez pas encore.
    - Créez une application de bot sur le [Discord Developer Portal](https://discord.com/developers/applications).
 
-<br><br>
+<br><br><br>
 
 ## ⚙️ Installation :
+
+<br><br>
 
 1. **Clonage du Répertoire**
    - Clonez le dépôt depuis GitHub en utilisant la commande suivante :
@@ -190,14 +214,14 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
      ├── scheduledTask.js
      └── .env
      ```
-<br>
+<br><br><br>
 
 ## 🔧 Personnalisation :
 > [!WARNING]
-> ⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités  : ⚠️
+> <p align="center">⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités ! ⚠️
 ---
 
-<br>
+<br><br>
 
 <details>
   <summary>⚠️ 1. Ajouter un rôle spécifique à l'utilisateur : 🛠️</summary>
@@ -238,10 +262,11 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et c
 
 </details>
 
-<br><br>
+<br><br><br>
 
 ## 🚀 Déploiement
 ---
+<br><br>
 
 Pour déployer votre bot Discord, suivez ces étapes :
 
@@ -257,6 +282,8 @@ Pour déployer votre bot Discord, suivez ces étapes :
      ```
 
    - L'ajout de `&` à la fin de la commande permet à Node.js de lancer le processus en arrière-plan tout en laissant le terminal disponible pour d'autres commandes. Cependant, ce n'est pas une solution robuste pour la gestion à long terme.
+
+<br><br>
 
 > [!TIP]
 >
@@ -274,31 +301,54 @@ Pour déployer votre bot Discord, suivez ces étapes :
 >  - Cela lancera votre bot Discord en arrière-plan sous le nom "discord-bot". Vous pouvez gérer ce processus avec des commandes telles que `pm2 restart`, `pm2 stop`, `pm2 delete`, etc.
 >  - Pour plus de détails sur la configuration et les fonctionnalités de PM2, consultez la [documentation officielle de PM2](https://pm2.keymetrics.io/docs/).
 
-<br>
+<br><br>
 
 > [!NOTE]
 >  - Je recommande l'utilisation de PM2 pour le déploiement de votre bot Discord, car cela garantit une disponibilité continue et une gestion facile des processus Node.js. PM2 offre également des fonctionnalités telles que le redémarrage automatique en cas de panne, la surveillance des ressources, et plus encore.
 
-<br><br>
+<br><br><br>
 
 ## 🤝 Contribution :
+> [!NOTE]
+> Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request.
 ---
 
-Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request.
+<br>
 
-### Comment Contribuer :
+<details>
+  <summary>Comment Contribuer :</summary>
+  
+  1. Forkez le dépôt.
+     ```bash
+     git clone git@github.com:Xxzer042xX/discord_bot.git
+     ```
+  2. Créez une branche pour vos modifications
+     ```bash
+     git checkout -b feature-ameliorations
+     ```
+  3. Commitez vos changements
+     ```bash
+     git commit -am 'Ajout de nouvelles fonctionnalités'
+     ```
+  4. Poussez la branche
+     ```bash
+     git push origin feature-ameliorations
+     ```
+  5. Créez une nouvelle Pull Request.
 
-1. Forkez le dépôt.
-2. Créez une branche pour vos modifications (`git checkout -b feature-ameliorations`).
-3. Commitez vos changements (`git commit -am 'Ajout de nouvelles fonctionnalités'`).
-4. Poussez la branche (`git push origin feature-ameliorations`).
-5. Créez une nouvelle Pull Request.
+</details>
 
-<br><br>
+
+<br><br><br>
 
 ## 🆘 Besoin d'Aide ?
 ---
 
-Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter la documentation de Discord.js et à poser des questions sur des forums de développeurs comme Stack Overflow.
+Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter les ressources suivantes :
+
+- [Documentation de Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
+- [Stack Overflow](https://stackoverflow.com/)
+- Vous pouvez aussi me contacter par [email](mailto:your-email@example.com)
 
 Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
+
