@@ -302,4 +302,3 @@ Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le 
 Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter la documentation de Discord.js et à poser des questions sur des forums de développeurs comme Stack Overflow.
 
 Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
-
