@@ -284,7 +284,7 @@
 ---
 <br><br>
 
-Pour déployer votre bot Discord, suivez ces étapes :
+- Pour déployer votre bot Discord, suivez ces étapes :
 
 1. **Ajout du Bot à Votre Serveur Discord**
    - Assurez-vous que votre bot a été ajouté à votre serveur Discord via le [Discord Developer Portal](https://discord.com/developers/applications).
