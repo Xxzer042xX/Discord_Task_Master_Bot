@@ -235,14 +235,16 @@
 <br><br><br>
 
 ## 🔧 Personnalisation :
+
 > [!WARNING]
 > <p align="center">⚠️ Il est essentiel de personnaliser les ID des salons, les noms de commande et les rôles, afin que le Bot active ses fonctionnalités ! ⚠️
+
 ---
 
 <br><br>
 
 <details>
-  <summary>⚠️ 1. Ajouter un rôle spécifique à l'utilisateur : 🛠️</summary>
+  <summary>⚠️ 1. Ajouter un rôle spécifique à l'utilisateur :</summary>
 
   <br>
   
@@ -252,15 +254,17 @@
   - Personnalisez votre message de confirmation dans `handlePiscineCommand`
   - Personnalisez votre message d'erreur dans `handlePiscineCommand`
   
-  <br><br>
+  <br>
   
   ➡ Ouvrez le fichier `index.js`
   
   - Personnalisez la commande `!votrecommande` dans `handleCustomCommand` avec le nom de commande de votre choix pour attribuer le rôle.
 </details>
-   
+
+<br><br>
+
 <details>
-  <summary>⚠️ <s>2. Gérer les salutations quotidiennes : 🛠️</s></summary>
+  <summary>⚠️ 2. Gérer les salutations quotidiennes :</summary>
 
   <br>
   
@@ -271,14 +275,19 @@
   - Remplacez `ID_DU_CANAL_DE_BIENVENUE` dans `handleDailyGreetings` par l'ID du canal où vous souhaitez envoyer les messages de bienvenue.
 </details>
 
+<br><br>
+
 <details>
-  <summary>⚠️ <s>3. Messages : 🛠️</s></summary>
+  <summary>⚠️ 3. Messages :</summary>
 
   <br>
   
-  ➡ Ouvrez le fichier
-
+  ➡ Ouvrez le fichier `scheduledTasks.js`
+  
+  - Personnalisez `ID_DU_CANAL` dans `countdownToAugust19` pour spécifier l'ID du canal où envoyer les messages de décompte.
+  - Personnalisez `ID_DE_L_EVENEMENT` dans `countdownToAugust19` pour l'ID réel de votre événement Discord.
 </details>
+
 
 <br><br><br>
 
