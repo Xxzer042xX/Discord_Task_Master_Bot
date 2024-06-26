@@ -151,11 +151,13 @@
 ### 3. Création d'un Compte Discord et d'une Application de Bot 
 
 - **Créez un compte sur Discord :**
+  
   - Si vous n'en avez pas encore, inscrivez-vous sur [discord.com/register](https://discord.com/register).
 
 <br>
 
 - **Créez une application de bot sur le Discord Developer Portal :**
+  
    - Allez sur [Discord Developer Portal](https://discord.com/developers/applications).
    - Cliquez sur `New Application`.
    - Donnez un nom à votre application, puis cliquez sur `Create`.
