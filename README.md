@@ -118,11 +118,10 @@
 ### 1. Système d'Exploitation :
 
 - Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
+
 <br><br>
 
 ### 2. Node.js et npm :
-
-#### Vérifier et Installer Node.js et npm :
 
 - **Vérifiez si Node.js et npm sont déjà installés :**
   
@@ -130,6 +129,7 @@
   node -v
   npm -v
   ```
+<br>
 
 - **Installation de Node.js et npm :**
   
@@ -137,18 +137,27 @@
     ```bash
     brew install node
     ```
+<br>
 
   - **Sur Linux (Ubuntu/Debian) :**
     ```bash
     sudo apt update
     sudo apt install nodejs npm
     ```
+<br>
+
+  - **Sur Windows :**
+
+    Vous pouvez installer Node.js en téléchargeant l'installateur depuis [nodejs.org](https://nodejs.org/) et en suivant les instructions d'installation.
+
     <br><br>
     
 ### 3. Création d'un Compte Discord et d'une Application de Bot 
 
 - **Créez un compte sur Discord :**
   - Si vous n'en avez pas encore, inscrivez-vous sur [discord.com/register](https://discord.com/register).
+
+<br>
 
 - **Créez une application de bot sur le Discord Developer Portal :**
    - Allez sur [Discord Developer Portal](https://discord.com/developers/applications).
@@ -162,49 +171,69 @@
 
 ## ⚙️ Installation :
 
+---
+
+### 1. Clonage du Répertoire
+
+- Placez-vous dans le répertoire où vous souhaitez cloner le dépôt et exécutez la commande suivante pour cloner le projet depuis GitHub :
+
+  ```bash
+  git clone git@github.com:Xxzer042xX/discord_bot.git
+  ```
 <br><br>
 
-1. **Clonage du Répertoire**
-   - Clonez le dépôt depuis GitHub en utilisant la commande suivante :
+### 2. Installation des Dépendances
 
-     ```bash
-     git clone git@github.com:Xxzer042xX/discord_bot.git
-     cd votre-repo
-     ```
+- Allez dans le répertoire fraîchement cloné (racine du projet) :
 
-2. **Installation des Dépendances**
-   - Installez les dépendances nécessaires pour votre bot Discord à l'aide de npm :
+  ```bash
+  cd discord_bot
+  ```
+<br><br>
 
-     ```bash
-     npm install discord.js schedule dotenv
-     ```
+- Installez les dépendances nécessaires pour votre bot Discord à l'aide de npm :
+  ```bash
+  # Cette commande npm installera les dépendances nécessaires et générera les fichiers package.json et package-lock.json
+  
+  npm install discord.js schedule dotenv
+  ```
 
-3. **Configuration des Variables d'Environnement**
-   - Créez un fichier `.env` à la racine du projet pour stocker votre token Discord et d'autres configurations sensibles :
+<br><br>
 
-     ```bash
-     touch .env
-     ```
+### 3. Configuration des Variables d'Environnement
 
-   - Ajoutez votre token Discord dans le fichier `.env` :
+- Créez un fichier `.env` à la racine du projet pour stocker votre token Discord et d'autres configurations sensibles :
 
-     ```env
-     DISCORD_TOKEN=VotreTokenDiscord
-     ```
+  ```bash
+  touch .env
+  ```
+<br><br>
 
-4. **Structure du Projet**
-   - Assurez-vous que votre structure de projet ressemble à ceci :
+- Ajoutez votre token Discord dans le fichier `.env` en utilisant `echo` :
 
-     ```
-     ├── node_modules/
-     ├── README.md
-     ├── commande.js
-     ├── index.js
-     ├── package-lock.json
-     ├── package.json
-     ├── scheduledTask.js
-     └── .env
-     ```
+  ```bash
+  echo "DISCORD_TOKEN=VotreTokenDiscord" >> .env
+  ```
+
+  Remplacez `VotreTokenDiscord` par votre véritable token Discord.
+
+  <br><br>
+
+### 4. Structure du Projet
+
+- Assurez-vous que votre structure de projet ressemble à ceci après avoir suivi les étapes :
+
+  ```
+  ├── node_modules/
+  ├── README.md
+  ├── commande.js
+  ├── index.js
+  ├── package-lock.json
+  ├── package.json
+  ├── scheduledTask.js
+  └── .env
+  ```
+
 <br><br><br>
 
 ## 🔧 Personnalisation :
