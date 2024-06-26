@@ -137,15 +137,11 @@
     ```bash
     brew install node
     ```
-<br>
-
   - **Sur Linux (Ubuntu/Debian) :**
     ```bash
     sudo apt update
     sudo apt install nodejs npm
     ```
-<br>
-
   - **Sur Windows :**
 
     Vous pouvez installer Node.js en téléchargeant l'installateur depuis [nodejs.org](https://nodejs.org/) et en suivant les instructions d'installation.
