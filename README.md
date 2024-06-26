@@ -107,72 +107,56 @@
 
 <br><br><br>
 
+
 ## 📋 Prérequis :
+
 > [!WARNING]
-> ⚠️ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système !
-> 
-> 1. **Système d'Exploitation :**
->    - Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
-> 
-> 2. **Node.js et npm :**
->    - Node.js est nécessaire pour exécuter DiscordTaskMasterBot. Voici comment vérifier et installer Node.js et npm :
->    ```bash
->    # Instructions pour vérifier l'installation de Node.js et npm
->    ```
-> 
-> 3. **dotenv :**
->    - Assurez-vous d'avoir installé le package dotenv pour gérer les variables d'environnement de votre projet :
->    ```bash
->    npm install dotenv
->    ```
-
+> ⚠️ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système :
 ---
+<br><br>
 
-<br>
+### 1. Système d'Exploitation :
 
-   ### Vérification de Node.js et npm :
-   <br>
+- Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
+<br><br>
 
-   Ouvrez un terminal (ou Command Prompt sous Windows) et exécutez les commandes suivantes :
+### 2. Node.js et npm :
 
-   ```bash
-   node -v
-   npm -v
-   ```
+#### Vérifier et Installer Node.js et npm :
 
-   Si Node.js et npm sont déjà installés, ces commandes afficheront leurs versions respectives. Sinon, suivez les étapes ci-dessous pour les installer.
+- **Vérifiez si Node.js et npm sont déjà installés :**
+  
+  ```bash
+  node -v
+  npm -v
+  ```
 
-   ### Installation de Node.js et npm
+- **Installation de Node.js et npm :**
+  
+  - **Sur macOS avec Homebrew :**
+    ```bash
+    brew install node
+    ```
 
-   #### Sur Windows et macOS :
+  - **Sur Linux (Ubuntu/Debian) :**
+    ```bash
+    sudo apt update
+    sudo apt install nodejs npm
+    ```
+    <br><br>
+    
+### 3. Création d'un Compte Discord et d'une Application de Bot 
 
-   - Téléchargez Node.js depuis [nodejs.org](https://nodejs.org/) et suivez les instructions d'installation. npm est généralement inclus dans l'installation de Node.js sur ces plateformes.
+- **Créez un compte sur Discord :**
+  - Si vous n'en avez pas encore, inscrivez-vous sur [discord.com/register](https://discord.com/register).
 
-   #### Sur Linux (Ubuntu/Debian) :
-
-   - Mettez à jour les paquets système avant l'installation :
-
-     ```bash
-     sudo apt update
-     sudo apt upgrade -y
-     ```
-
-   - Installez Node.js et npm avec les commandes suivantes :
-
-     ```bash
-     sudo apt install nodejs npm
-     ```
-
-   - Vérifiez que Node.js et npm sont installés correctement en vérifiant les versions :
-
-     ```bash
-     node -v
-     npm -v
-     ```
-
-3. **Compte Discord et Bot**
-   - Créez un compte sur [Discord](https://discord.com) si vous n'en avez pas encore.
-   - Créez une application de bot sur le [Discord Developer Portal](https://discord.com/developers/applications).
+- **Créez une application de bot sur le Discord Developer Portal :**
+   - Allez sur [Discord Developer Portal](https://discord.com/developers/applications).
+   - Cliquez sur `New Application`.
+   - Donnez un nom à votre application, puis cliquez sur `Create`.
+   - Dans le menu de gauche, sélectionnez `Bot`.
+   -  Cliquez sur `Add Bot`.
+   - Configurez les permissions et copiez le token du bot pour une utilisation ultérieure dans votre application.
 
 <br><br><br>
 
