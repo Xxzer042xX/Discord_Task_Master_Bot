@@ -109,22 +109,29 @@
 
 ## 📋 Prérequis :
 > [!WARNING]
-> <p align="center">⚠️ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système ! ⚠️
+> ⚠️ Avant de commencer, assurez-vous d'avoir les éléments suivants installés et configurés sur votre système !
+> 
+> 1. **Système d'Exploitation :**
+>    - Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
+> 
+> 2. **Node.js et npm :**
+>    - Node.js est nécessaire pour exécuter DiscordTaskMasterBot. Voici comment vérifier et installer Node.js et npm :
+>    ```bash
+>    # Instructions pour vérifier l'installation de Node.js et npm
+>    ```
+> 
+> 3. **dotenv :**
+>    - Assurez-vous d'avoir installé le package dotenv pour gérer les variables d'environnement de votre projet :
+>    ```bash
+>    npm install dotenv
+>    ```
+
 ---
-
-<br><br>
-
-1. **Système d'Exploitation :**
-   - Windows 10, macOS, ou Linux (Ubuntu/Debian recommandé).
-
-<br>
-
-2. **Node.js et npm :**
-   - Node.js est nécessaire pour exécuter DiscordTaskMasterBot. Voici comment vérifier et installer Node.js et npm :
 
 <br>
 
    ### Vérification de Node.js et npm :
+   <br>
 
    Ouvrez un terminal (ou Command Prompt sous Windows) et exécutez les commandes suivantes :
 
@@ -304,19 +311,21 @@ Pour déployer votre bot Discord, suivez ces étapes :
 <br><br>
 
 > [!NOTE]
->  - Je recommande l'utilisation de PM2 pour le déploiement de votre bot Discord, car cela garantit une disponibilité continue et une gestion facile des processus Node.js. PM2 offre également des fonctionnalités telles que le redémarrage automatique en cas de panne, la surveillance des ressources, et plus encore.
+>  - Je recommande l'utilisation de PM2 pour le déploiement de votre bot Discord, car cela garantit une disponibilité continue et une gestion facile des processus Node.js
+> 
+>  - PM2 offre également des fonctionnalités telles que le redémarrage automatique en cas de panne, la surveillance des ressources, et plus encore.
 
 <br><br><br>
 
 ## 🤝 Contribution :
 > [!NOTE]
-> Vous pouvez contribuer au développement de DiscordTaskMasterBot en forquant le dépôt, créant une branche pour vos modifications et soumettant une Pull Request.
+> <p align="center">Contribuez au développement de DiscordTaskMasterBot. Rejoignez-nous et faites la différence !
 ---
 
 <br>
 
 <details>
-  <summary>Comment Contribuer :</summary>
+  <summary>Comment Contribuer ? :</summary>
   
   1. Forkez le dépôt.
      ```bash
@@ -343,12 +352,18 @@ Pour déployer votre bot Discord, suivez ces étapes :
 
 ## 🆘 Besoin d'Aide ?
 ---
+<br>
 
-Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter les ressources suivantes :
-
-- [Documentation de Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
-- [Stack Overflow](https://stackoverflow.com/)
-- Vous pouvez aussi me contacter par [email](mailto:your-email@example.com)
-
-Ce guide devrait vous aider à démarrer avec DiscordTaskMasterBot même si vous êtes débutant. Bonne chance !
-
+<details>
+  <summary>Si vous rencontrez des problèmes lors de l'installation ou si vous avez des questions, n'hésitez pas à consulter les ressources suivantes :</summary>
+  <br>
+  
+  - [Documentation de Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
+    <br>
+    
+  - [Stack Overflow](https://stackoverflow.com/)
+    <br>
+    
+  - Vous pouvez aussi me contacter par [email](mailto:your-email@example.com)
+  
+</details>
